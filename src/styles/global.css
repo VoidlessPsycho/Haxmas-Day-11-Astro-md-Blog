@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root {
-    --bg: #f4f0ff;
-    --surface: #ffffff;
-    --border: #d7d3e5;
-    --text: #1f1c2e;
-    --muted: #4a4761;
-    --muted-2: #6a6a7a;
-    --accent: #5145b7;
-    --accent-strong: #322a53;
+    --bg: #f6efe8;
+    --surface: #fffaf5;
+    --border: #d8c7b8;
+
+    --text: #3a1f17;
+    --muted: #7a4b3a;
+    --muted-2: #9c6a57;
+
+    --accent: #e76f51;
+    --accent-strong: #c4452a;
+
     --max-width: 960px;
 }
 
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
